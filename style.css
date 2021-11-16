@@ -1,0 +1,41 @@
+/* unvisited link */
+
+.button {
+ text-align: center;
+}
+a:link, a:visited {
+  background-color: #ca9d58;
+  color: white;
+  padding: 100px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-size: 30px;
+}
+
+a:hover, a:active {
+  background-color: #c7821a;
+}
+
+* {
+	font-family: Futura, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align: center;
+
+}
+
+h1 {
+	text-align: center;
+	background-color: #ca9d58;
+	font-size: 45px;
+}
+
+p {
+	font-size: 20px;
+}
+
+p, .button{
+	margin-top: 20px;
+margin-right: 50px;
+margin-bottom: 20px;
+margin-left: 50px;
+}
