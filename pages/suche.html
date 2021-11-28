@@ -12,6 +12,7 @@
   transition-duration: 0.4s;
 	background-color: #ca9d58;
 	width: 250px;
+	font-size: 16px;
 }
 
 .button:hover {
@@ -19,14 +20,13 @@
   color: white;
 }
 
-}
+
 #myInput {
-  background-image: img('/icons/search.png');
-  background-position: 10px 10px;
+  background-position: 15px 15px;
   background-repeat: no-repeat;
   width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
+  font-size: 19px;
+  padding: 12px 20px 12px 30px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
@@ -69,14 +69,18 @@ h2 {
 <h2>
 	<div>
 Hier können Sie nach Büchern suchen. Geben Sie dafür Ihren Suchbegriff (Autor:in, Titel, Stichwort etc.) in das Feld ein.
+Passende Bücher werden unten angezeigt.
 </div>
 <div>
-Wenn Sie das gewünschte Buch gefunden haben, können Sie <a href="https://docs.google.com/spreadsheets/d/1nV0luHpL8KLlRGVkWudYbfSQC-kMVkYb7coOvKLBuo8/edit?usp=sharing">hier</a> nachsehen, ob es verfügbar ist.      <a href="../index.html">Zurück zur Auswahlseite</a></h2>
+Wenn Sie das gewünschte Buch gefunden haben, können Sie <a href="https://docs.google.com/spreadsheets/d/1nV0luHpL8KLlRGVkWudYbfSQC-kMVkYb7coOvKLBuo8/edit?usp=sharing">hier</a> nachsehen, ob es verfügbar ist und es ausleihen.      <a href="../index.html">Zurück zur Auswahlseite</a></h2>
 </div>
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Suchbegriff eingeben" title="Type in a name"><br>
 
 <p><button onclick="show()" class="button">Klappentexte anzeigen</button></p>
 <p><button onclick="hide()" class="button">Klappentexte ausblenden</button></p>
+
+
+
 <table id="myTable" class="table table-hover">
 	<thead><tr><th title="Field #1">Signatur</th>
 	<th title="Field #2">Autor:in Nachname</th>
