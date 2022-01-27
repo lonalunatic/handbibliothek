@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.form, .inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+*{
+	font-family: Futura, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h2, h1{
+	background-color: #ca9d58;
+}
+
+.btn {
+  transition-duration: 0.4s;
+	background-color: #ca9d58;
+	width: 250px;
+	font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #c7821a;
+  color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Ausleihen</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<h1>RÜCKGABE</h1>
+				<h2>
+					Tragen Sie hier Ihre Daten zur Rückgabe ein.
+					Sie erhalten eine Bestätigungsmail von FormSubmit.
+					Wenn Probleme auftreten, schreiben Sie gern in das Textfeld!
+					Bitte geben Sie jedes Buch einzeln zurück.
+			</div>
+			<div class="form">
+		  <form target="_blank" action="https://formsubmit.co/lona.friessner@gmail.com" method="POST">
+				<div class="inputs">
+			    <input type="text" name="Name" class="form-control" placeholder="Name" required>
+			    <input type="email" name="email" class="form-control" placeholder="Email-Adresse" required>
+					<input type="text" name="Signatur" class="form-control" placeholder="Signatur" required>
+				  <input type="text" name="Titel" class="form-control" placeholder="Titel des Buches" required>
+			    <textarea placeholder="Probleme oder Anmerkungen? Einfach hier eintragen." class="form-control" name="message" rows="10"></textarea>
+					<input type="hidden" name="_autoresponse" value="Rückgabe erfolgreich! Hier sehen Sie die übermittelten Daten:">
+					<input type="hidden" name="_subject" value="Neue Rückgabe in der Handbibliothek">
+					<input type="hidden" name="_next" value="https://handbibliothek-mth.ga/pages/thank-you/thank-you.html">
+					<input type="hidden" name="_url" value="https://handbibliothek-mth.ga">
+		    </div>
+		    <button type="submit" class="btn">Jetzt zurückgeben</button>
+		  </form>
+			</div>
+
+		</div>
+	</body>
+</html>
