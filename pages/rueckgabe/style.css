@@ -10,7 +10,9 @@
 	padding: 2px;
 	justify-content: center;
 }
-
+input, textarea {
+	font-size: 16px;
+}
 *{
 	font-family: Futura, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
