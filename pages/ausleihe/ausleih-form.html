@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Ausleihen</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<h1>AUSLEIHE</h1>
+				<h2>
+					Tragen Sie hier Ihre Daten zur Ausleihe ein.
+					Sie erhalten eine Bestätigungsmail von FormSubmit.
+					Wenn Probleme auftreten, schreiben Sie gern in das Textfeld!
+					Bitte leihen Sie jedes Buch einzeln aus.
+			</div>
+			<div class="form">
+		  <form target="_blank" action="https://formsubmit.co/lona.friessner@gmail.com" method="POST">
+				<div class="inputs">
+			    <input type="text" name="Name" class="form-control" placeholder="Name" required>
+			    <input type="email" name="Email" class="form-control" placeholder="Email-Adresse" required>
+					<input type="text" name="Signatur" class="form-control" placeholder="Signatur" required>
+				  <input type="text" name="Titel" class="form-control" placeholder="Titel des Buches" required>
+			    <textarea placeholder="Probleme oder Anmerkungen? Einfach hier eintragen." class="form-control" name="message" rows="10"></textarea>
+					<input type="hidden" name="_autoresponse" value="Ausleihe erfolgreich! Hier sehen Sie die übermittelten Daten:">
+					<input type="hidden" name="_subject" value="Neue Ausleihe in der Handbibliothek">
+					<input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+		    </div>
+		    <button type="submit" class="btn">Jetzt ausleihen</button>
+		  </form>
+			</div>
+
+		</div>
+	</body>
+</html>
