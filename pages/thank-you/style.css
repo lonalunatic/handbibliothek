@@ -1,0 +1,10 @@
+.links {
+	display: flex;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 100px;
+	background-color: #FFD580;
+}
